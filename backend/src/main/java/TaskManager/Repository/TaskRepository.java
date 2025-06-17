@@ -1,6 +1,6 @@
-package Repository;
+package TaskManager.Repository;
 
-import Model.Task;
+import TaskManager.Model.Task;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
