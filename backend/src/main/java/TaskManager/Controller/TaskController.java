@@ -1,7 +1,7 @@
-package Controller;
+package TaskManager.Controller;
 
-import Model.Task;
-import Repository.TaskRepository;
+import TaskManager.Model.Task;
+import TaskManager.Repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
