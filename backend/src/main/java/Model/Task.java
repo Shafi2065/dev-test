@@ -1,4 +1,4 @@
-package TaskManager;
+package Model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -43,8 +43,8 @@ public class Task {
     }
 
     public void setDescription(String description) {
-        if (description.length() < 10) {
-            throw new IllegalArgumentException("Description needs to contain a minimum of 10 characters");
+        if (description != null && description.length() < 10) {
+            throw new IllegalArgumentException("Description needs to contain a minimum of 10 characters or be left empty");
         }
         this.description = description;
     }
