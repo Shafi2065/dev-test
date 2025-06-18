@@ -3,6 +3,14 @@
 - MySQL database (connected to the backend) 
 - Next.js (React) front end
 
+## API Endpoints:
+- http://localhost:8080/task and http://localhost:8080/task/all (makes a GET request for all tasks)
+- http://localhost:8080/task/add (makes a POST request to create a task)
+- http://localhost:8080/task/id (makes a GET request for a specific task by id number)
+- http://localhost:8080/task/id/status (makes a PUT request to update a specific task's status to "In Progress" or "Completed")
+- http://localhost:8080/task/id (makes a DELETE request in order to delete a specific task by id)
+- http://localhost:8080/id/status (makes a GET request to retrieve all tasks with a specific status)
+
 ##  Start the Application
 
 Follow these steps to start the application:
