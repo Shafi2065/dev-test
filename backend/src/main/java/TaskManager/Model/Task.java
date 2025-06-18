@@ -43,7 +43,7 @@ public class Task {
     }
 
     public void setDescription(String description) {
-        if (description != null && description.length() < 10) {
+        if (description != null && !description.isEmpty() && description.length() < 10) {
             throw new IllegalArgumentException("Description needs to contain a minimum of 10 characters or be left empty");
         }
         this.description = description;
