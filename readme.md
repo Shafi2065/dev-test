@@ -46,3 +46,25 @@ Fill in the forms carefully as there is error handling that prevents mistakes in
 - Providing a description that is too short, please leave description blank or have at least 10 chars!
 - Trying to create a task with a due date in the past 
 
+## Unit Tests:
+Navigate to the test directory:
+
+```bash
+   cd backend
+   cd src
+   cd test
+```
+
+Navigate to the Test file "TaskControllerTest.Java"
+
+```bash
+   cd Java
+   cd TaskManager
+   cd TaskControllerTest
+```
+
+Execute the command:
+
+```bash
+   ./gradlew test
+```
