@@ -1,13 +1,12 @@
-package com.Shafi.TaskManager;
-
+package TaskManager;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class TaskManagerApplicationTests {
+public class TaskManagerApplicationTest {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
